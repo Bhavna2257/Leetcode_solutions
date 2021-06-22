@@ -3,7 +3,6 @@ class Solution {
         
         int left = 0;
         int right = nums.length() - 1;
-        int count = 0;
         while(left <= right)
         {
             if((nums.charAt(left) == '9' && nums.charAt(right) == '6') || (nums.charAt(left) == '6' && nums.charAt(right) == '9'))
