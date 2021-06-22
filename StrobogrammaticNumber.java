@@ -1,3 +1,8 @@
+/*
+ * Time complexity: O(n/2) -> O(n)
+ * Space complexity: O(1)
+ */
+
 class Solution {
     public boolean isStrobogrammatic(String nums) {
         
